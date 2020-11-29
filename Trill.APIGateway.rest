@@ -1,0 +1,24 @@
+@url = http://localhost:5000
+@adsService = {{url}}/ads-service
+@analyticsService = {{url}}/analytics-service
+@storiesService = {{url}}/stories-service
+@timelineService = {{url}}/timeline-service
+@usersService = {{url}}/users-service
+
+###
+GET {{url}}
+
+###
+GET {{adsService}}
+
+###
+GET {{analyticsService}}
+
+###
+GET {{storiesService}}
+
+###
+GET {{timelineService}}
+
+###
+GET {{usersService}}

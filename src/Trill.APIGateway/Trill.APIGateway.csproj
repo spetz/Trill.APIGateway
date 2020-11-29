@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Convey.Auth" Version="0.4.*" />
+    <PackageReference Include="Convey.Logging" Version="0.4.*" />
+    <PackageReference Include="Convey.MessageBrokers.CQRS" Version="0.4.*" />
+    <PackageReference Include="Convey.MessageBrokers.RabbitMQ" Version="0.4.*" />
+    <PackageReference Include="Convey.Metrics.Prometheus" Version="0.4.*" />
+    <PackageReference Include="Convey.Secrets.Vault" Version="0.4.*" />
+    <PackageReference Include="Convey.Security" Version="0.4.*" />
+    <PackageReference Include="Convey.Tracing.Jaeger" Version="0.4.*" />
+    <PackageReference Include="Convey.Tracing.Jaeger.RabbitMQ" Version="0.4.*" />
+    <PackageReference Include="Convey.WebApi" Version="0.4.*" />
+    <PackageReference Include="Microsoft.ReverseProxy" Version="1.0.0-preview.5.20467.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="certs\**" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+
+</Project>
